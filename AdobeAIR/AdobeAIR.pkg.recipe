@@ -6,7 +6,7 @@
     <string>Downloads the latest Adobe AIR installer and repackages it for unattended, silent installation.
 Based on jamesz's work here: https://github.com/jamesez/automunki/tree/master/adobe-air</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.AdobeAIR</string>
+    <string>se.schibsted.autopkg.pkg.AdobeAIR</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -253,7 +253,7 @@ Based on jamesz's work here: https://github.com/jamesez/automunki/tree/master/ad
             <key>Arguments</key>
             <dict>
                 <key>pkgname</key>
-                <string>%NAME%-%version%</string>
+                <string>app-%NAME%-%version%-Mac</string>
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgdir</key>

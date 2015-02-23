@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest VLC disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.VLC</string>
+    <string>se.schibsted.autopkg.pkg.VLC</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -70,7 +70,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkgname</key>
-                <string>%NAME%-%version%</string>
+                <string>app-%NAME%-%version%-Mac</string>
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgdir</key>

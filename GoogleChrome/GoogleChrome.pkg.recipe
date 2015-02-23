@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Chrome disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.googlechrome</string>
+    <string>se.schibsted.autopkg.pkg.googlechrome</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -57,7 +57,7 @@
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgname</key>
-                    <string>%NAME%-%version%</string>
+                    <string>app-%NAME%-%version%-Mac</string>
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
