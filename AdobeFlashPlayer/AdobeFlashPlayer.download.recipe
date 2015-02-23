@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Adobe Flash Player installer.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.FlashPlayer</string>
+    <string>se.schibsted.autopkg.download.FlashPlayer</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -25,7 +25,7 @@
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>%NAME%.dmg</string>
+                <string>%NAME%Installer.dmg</string>
             </dict>
         </dict>
         <dict>
