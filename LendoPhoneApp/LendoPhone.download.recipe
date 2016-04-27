@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Lendo Phone Client.</string>
+    <string>Downloads latest Lendo Phone Client DMG.</string>
     <key>Identifier</key>
     <string>com.github.autopkg.astrom.download.LendoPhoneapp.recipe</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Lendo Phone App</string>
+        <string>lendo.dmg</string>
         <key>DOWNLOAD_URL</key>
         <string>http://144.63.6.40:8080/apps/lendo.dmg</string>
     </dict>

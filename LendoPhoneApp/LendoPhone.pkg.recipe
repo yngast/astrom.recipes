@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest AcanoClient and builds a package.</string>
+    <string>Downloads latest Lendo Phone client and builds a package.</string>
     <key>Identifier</key>
     <string>com.github.autopkg.astrom.pkg.LendoPhone.recipe</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Lendo Phone app</string>
+        <string>Lendo\ Phone\ App.app</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
