@@ -10,11 +10,11 @@
     <dict>
         <key>NAME</key>
         <string>lendo.dmg</string>
+		<key>app_name</key>
+		<string>Lendo Phone App</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
-	<key>app_name</key>
-	<string>Lendo Phone App/string>
     <key>ParentRecipe</key>
     <string>com.github.autopkg.astrom.download.LendoPhoneapp.recipe</string>
     <key>Process</key>
