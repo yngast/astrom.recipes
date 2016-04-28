@@ -25,7 +25,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkgroot</key>
-                <string>%RECIPE_CACHE_DIR%/lendo.dmg/</string>
+                <string>%RECIPE_CACHE_DIR%/%pathname%/lendo.dmg/</string>
                 <key>pkgdirs</key>
                 <dict>
                     <key>Applications</key>
