@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest AcanoClient and builds a package.</string>
+    <string>Downloads latest Lendo Apps and builds a package.</string>
     <key>Identifier</key>
     <string>com.github.autopkg.astrom.pkg.LendoPhone.recipe</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Lendo Admin app</string>
+        <string>Lendo Apps</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -17,13 +17,22 @@
     <string>com.github.autopkg.astrom.download.LendoPhoneapp.recipe</string>
     <key>Process</key>
     <array>
+		<dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+		</dict>
         <dict>
             <key>Processor</key>
             <string>PkgRootCreator</string>
             <key>Arguments</key>
             <dict>
                 <key>pkgroot</key>
-                <string>%RECIPE_CACHE_DIR%/%app_name%</string>
+                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
                 <key>pkgdirs</key>
                 <dict>
                     <key>Applications</key>
@@ -37,11 +46,22 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/%app_name%</string>
+                <string>%pathname%/Lendo Admin App.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/%app_name%</string>
+                <string>%pkgroot%/Applications/Lendo Admin App.app</string>
             </dict>
         </dict>
+		<dict>
+			<key>Processor</key>
+			<string>Copier</string>
+			<key>Arguments</key>
+			<dict>
+				<key>source_path</key>
+				<string>%pathname%/Lendo Phone App.app</string>
+				<key>destination_path</key>
+				<string>%pkgroot%/Applications/Lendo Phone App.app</string>
+			</dict>
+		</dict>
         <dict>
             <key>Processor</key>
             <string>PkgCreator</string>
