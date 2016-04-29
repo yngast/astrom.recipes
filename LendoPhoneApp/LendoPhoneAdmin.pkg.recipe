@@ -51,7 +51,6 @@
                 <string>%pkgroot%/Applications/Lendo Admin App.app</string>
             </dict>
         </dict>
-				</dict>
         <dict>
             <key>Processor</key>
             <string>PkgCreator</string>
