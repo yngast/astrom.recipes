@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>LendoApps</string>
+        <string>Lendo Admin app</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -32,7 +32,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkgroot</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+                <string>%RECIPE_CACHE_DIR%/</string>
                 <key>pkgdirs</key>
                 <dict>
                     <key>Applications</key>
