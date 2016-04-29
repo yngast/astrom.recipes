@@ -50,7 +50,7 @@
                 <key>source_path</key>
 				<string>%pathname%/Lendo Admin app.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/</string>
+                <string>%pkgroot%/Applications/Lendo Admin app.app</string>
             </dict>
         </dict>
         <dict>
