@@ -6,7 +6,7 @@
     <string>Downloads latest Lendo Phone client and builds a package.</string>
     <key>Identifier</key>
     <string>com.github.autopkg.astrom.pkg.LendoPhone.recipe</string>
-	key>Input</key>
+	<key>Input</key>
 <dict>
 	<key>NAME</key>
 	<string>LendoPhone</string>
