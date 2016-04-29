@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Lendo Apps and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.astrom.pkg.LendoPhone.recipe</string>
+    <string>com.github.autopkg.astrom.pkg.LendoPhoneAdmin.recipe</string>
     <key>Input</key>
 	<dict>
 		<key>NAME</key>
