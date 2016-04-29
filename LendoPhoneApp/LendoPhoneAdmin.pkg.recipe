@@ -27,10 +27,6 @@
 				<string>%pathname%</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>DmgMounter</string>
-		</dict>
         <dict>
             <key>Processor</key>
             <string>PkgRootCreator</string>
