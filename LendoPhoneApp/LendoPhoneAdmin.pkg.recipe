@@ -9,7 +9,7 @@
     <key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>lendo.dmg</string>
+		<string>LendoAdmin</string>
 	</dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -27,6 +27,10 @@
 				<string>%pathname%</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>DmgMounter</string>
+		</dict>
         <dict>
             <key>Processor</key>
             <string>PkgRootCreator</string>
@@ -41,6 +45,7 @@
                 </dict>
             </dict>
         </dict>
+		
         <dict>
             <key>Processor</key>
             <string>Copier</string>
@@ -49,7 +54,7 @@
                 <key>source_path</key>
 				<string>%pathname%/Lendo Admin app.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/Lendo Admin app.app</string>
+                <string>%pkgroot%/Applications</string>
             </dict>
         </dict>
         <dict>
