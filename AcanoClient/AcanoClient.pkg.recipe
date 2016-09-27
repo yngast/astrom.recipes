@@ -36,7 +36,7 @@
                 <key>pkgdirs</key>
                 <dict>
                     <key>Applications</key>
-                    <string>0775</string>
+                    <string>0755</string>
                 </dict>
             </dict>
         </dict>
