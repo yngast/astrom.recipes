@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of SourceTree.</string>
 	<key>Identifier</key>
-	<string>com.github.astrom.download.SourceTree</string>
+	<string>com.github.yngast.download.SourceTree</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

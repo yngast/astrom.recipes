@@ -5,14 +5,14 @@
 	<key>Description</key>
 	<string>Downloads the current release version of SourceTree and builds a package.</string>
 	<key>Identifier</key>
-	<string>com.github.astrom.pkg.SourceTree</string>
+	<string>com.github.yngast.pkg.SourceTree</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>SourceTree</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.astrom.download.SourceTree</string>
+	<string>com.github.yngast.download.SourceTree</string>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>Process</key>
