@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of SourceTree and makes a pkg of it then uploads it to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.astrom.jss.SourceTree</string>
+	<string>com.github.yngast.jss.SourceTree</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>io.github.hjuutilainen.pkg.SourceTree</string>
+	<string>com.github.yngast.pkg.SourceTree</string>
 	<key>Process</key>
 	<array>
 		<dict>
