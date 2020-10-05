@@ -5,11 +5,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of SourceTree and makes a pkg of it then uploads it to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.yngast.jss.SourceTree</string>
+	<string>com.github.yngast.jss.YASourceTree</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Computer Science</string>
+		<string>Developer Tools</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.yngast.pkg.SourceTree</string>
+	<string>com.github.yngast.pkg.YASourceTree</string>
 	<key>Process</key>
 	<array>
 		<dict>
