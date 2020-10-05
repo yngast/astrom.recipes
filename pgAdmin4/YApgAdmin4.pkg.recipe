@@ -13,7 +13,7 @@
 			<key>APP_FILENAME</key>
 			<string>pgAdmin 4</string>
 			<key>BUNDLE_ID</key>
-			<string>org.pgadmin.pgAdmin4</string>
+			<string>org.pgadmin.pgadmin4</string>
 			<key>NAME</key>
 			<string>pgAdmin 4</string>
 		</dict>
