@@ -20,7 +20,7 @@
 		<key>MinimumVersion</key>
 		<string>1.0.0</string>
 		<key>ParentRecipe</key>
-		<string>com.github.yngast.download.YApgAdmin4</string>
+		<string>com.github.yngast.download.YApgadmin4</string>
 		<key>Process</key>
 		<array>
 			<dict>
