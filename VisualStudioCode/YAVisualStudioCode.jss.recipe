@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.yngast.astrom.pkg.yavisualstudioscode</string>
+	<string>com.github.yngast.astrom.pkg.YAvisualstudioscode</string>
 	<key>Process</key>
 	<array>
 		<dict>
