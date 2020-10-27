@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VS Code and then uploads to the JSS</string>
 	<key>Identifier</key>
-	<string>com.github.yngast.astrom.jss.visualstudiocode</string>
+	<string>com.github.yngast.astrom.jss.yavisualstudiocode</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.yngast.astrom.pkg.visualstudioscode</string>
+	<string>com.github.yngast.astrom.pkg.yavisualstudioscode</string>
 	<key>Process</key>
 	<array>
 		<dict>
