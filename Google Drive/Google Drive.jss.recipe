@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>Downloads the latest version of ToolBox App and then uploads to the JSS</string>
+	<key>Comment</key>
+	<string>Downloads the latest version of Google Drive and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.yngast.astrom.jss.ToolBoxApp</string>
+	<string>com.github.jss-recipes.jss.GoogleDrive</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -15,20 +15,20 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>JetBrains ToolBox</string>
+		<string>Google Drive</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>JetBrains ToolBox App Lets you manage all your JetBrains tools in an easy way</string>
+		<string>Ultimate solution for Google Drive. </string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>ToolBoxApp.png</string>
+		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.18.74</string>
+	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.yngast.astrom.pkg.ToolBoxApp</string>
+	<string>com.github.yngast.astrom.pkg.GoogleDrive</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -54,7 +54,9 @@
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
-				<string>%SELF_SERVICE_DESCRIPTION%</string>
+				<string>With Drive for desktop, you stream your Drive files directly from the cloud to your Mac, freeing up disk space and network bandwidth. Because Drive files are stored in the cloud, any changes you or your collaborators make are automatically updated everywhere. You’ll always have the latest version.
+
+You can also make Drive files available for offline access. These cached files sync back to the cloud when you're online, so the latest version is available on all your devices.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
